@@ -1,0 +1,6 @@
+29.04.17
+Ég byrjaði að nota vmware eins og adell sagði okkur að nota þegar hann gat ekki fundið út hvernig á að setja up private og public interface á virtualbox
+Það tók smá tíma en ég náði að setja up þessi interface ég ætla að uploada vm á github.
+Ég var líka búin að installa dhcp en á eftir að testa það með client og setja það upp þanig að servicið starti þegar það er kveikt á serverinum
+Veit ekki hvað ég á að láta kjartan gera. Kanski bara setja userana inn á serverinn.
+installaði ssh bara þegar ég installaði debian það ætti að virka á eftir að testa.
