@@ -1,0 +1,17 @@
+#Fyrir vmware fór ég bara í Player>Manage>Virtual Machine Settings og bætti við lan segment network adapter
+
+#Basic loopback
+  auto lo
+  iface lo inet loopback
+
+#Public interface
+  auto eth0
+  allow-hotplug eth0
+  #bara nota dhcp fyrir public
+  iface eth0 inet dhcp
+#Private interface
+  auto eth1
+  iface eth1 inet static
+      address 192.168.100.1
+      netmask 255.255.255.192
+      gateway 192.168.100.1
