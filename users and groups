@@ -1,0 +1,8 @@
+groupadd IT
+groupadd Management
+groupadd Accounting 
+groupadd Manufacturing
+
+adduser --ingroup %groupname% %username% (við skrifuðim allt in sjálfir pass of nafn og þetta setti home directory fyrir alla usera)
+
+
