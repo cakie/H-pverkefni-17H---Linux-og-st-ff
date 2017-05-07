@@ -1,0 +1,4 @@
+CREATE USER 'it'@'%' IDENTIFIED BY 'Pass.123';
+CREATE USER 'management'@'%' IDENTIFIED BY 'Pass.123';
+GRANT CREATE,UPDATE ON *.* TO 'it'@'%';
+GRANT CREATE,UPDATE ON *.* TO 'management'@'%';
