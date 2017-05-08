@@ -6,3 +6,13 @@ Veit ekki hvað ég á að láta kjartan gera. Kanski bara setja userana inn á 
 installaði ssh bara þegar ég installaði debian það ætti að virka á eftir að testa.
 já github vill ekki taka við vm því það er alltof stórt file fokking body shamers 
 set það bara á usb eða google drive 
+
+
+Búin að installa dns, apache2, samba og mysql.
+Bjó til eitt account fyrir samba og eitt share directory
+Ég bjó til cfg fyrir dns ekki viss hvort það virkar
+Ég hef unnið með mysql áður og bjó til accounts fyrir it og management group
+by til sql skjal fyrir commandin sem ég notaði
+installaði php 
+installaði postfix, heyrði að mail serverar eru pain svo eg er ekkert spentur fyrir þessu.
+ákvað að upgrada 26 pakkar yay
